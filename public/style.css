@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eaf4fa;
+}
+
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 28px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input,
+button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-top: 6px;
+}
+
+button {
+  margin-top: 16px;
+  background: #1261a0;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0e4e82;
+}
+
+button:disabled {
+  background: #8aa9c2;
+  cursor: not-allowed;
+}
+
+input:focus,
+button:focus-visible {
+  outline: 2px solid #1261a0;
+  outline-offset: 2px;
+}
+
+#mensagem.sucesso {
+  color: #1b7a3a;
+}
+
+#mensagem.erro {
+  color: #b3261e;
+}
+
+li {
+  margin: 10px 0;
+}

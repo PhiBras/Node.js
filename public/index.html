@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de usuários</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Cadastro de usuários</h1>
+
+    <form id="formulario">
+      <label for="nome">Nome</label>
+      <input id="nome" name="nome" placeholder="Digite o nome" maxlength="100" required>
+
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="email" placeholder="Digite o e-mail" maxlength="150" required>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <p id="mensagem" aria-live="polite"></p>
+
+    <ul id="lista"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
